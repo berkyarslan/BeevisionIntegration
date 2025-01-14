@@ -1,0 +1,234 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Beevision Integration",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/JsonDecode": {
+      "post": {
+        "tags": [
+          "JsonDecode"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JsonInput"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JsonInput"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/JsonInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/JsonDecode/image/{fileName}": {
+      "get": {
+        "tags": [
+          "JsonDecode"
+        ],
+        "parameters": [
+          {
+            "name": "fileName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "JsonInput": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "statusMessage": {
+            "type": "string",
+            "nullable": true
+          },
+          "width": {
+            "type": "string",
+            "nullable": true
+          },
+          "length": {
+            "type": "string",
+            "nullable": true
+          },
+          "height": {
+            "type": "string",
+            "nullable": true
+          },
+          "dimWt": {
+            "type": "string",
+            "nullable": true
+          },
+          "realVolume": {
+            "type": "string",
+            "nullable": true
+          },
+          "weight": {
+            "type": "string",
+            "nullable": true
+          },
+          "unitID": {
+            "type": "string",
+            "nullable": true
+          },
+          "branchID": {
+            "type": "string",
+            "nullable": true
+          },
+          "barcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "barcodeType": {
+            "type": "string",
+            "nullable": true
+          },
+          "barcodeSource": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "nullable": true
+          },
+          "time": {
+            "type": "string",
+            "nullable": true
+          },
+          "measurementID": {
+            "type": "string",
+            "nullable": true
+          },
+          "serialNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "dimUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "weightUnit": {
+            "type": "string",
+            "nullable": true
+          },
+          "isRegular": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "objectRGBCoordinates": {
+            "type": "string",
+            "nullable": true
+          },
+          "operator": {
+            "type": "string",
+            "nullable": true
+          },
+          "batchName": {
+            "type": "string",
+            "nullable": true
+          },
+          "imageBase64": {
+            "type": "string",
+            "nullable": true
+          },
+          "crc": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
