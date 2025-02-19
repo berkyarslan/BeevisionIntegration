@@ -34,3 +34,40 @@ C:\Users\barsl\Desktop\Beevision Integration\obj\Debug\net8.0\refint\Beevision I
 C:\Users\barsl\Desktop\Beevision Integration\obj\Debug\net8.0\Beevision Integration.pdb
 C:\Users\barsl\Desktop\Beevision Integration\obj\Debug\net8.0\Beevision Integration.genruntimeconfig.cache
 C:\Users\barsl\Desktop\Beevision Integration\obj\Debug\net8.0\ref\Beevision Integration.dll
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\appsettings.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Beevision Integration.staticwebassets.endpoints.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Beevision Integration.exe
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Beevision Integration.deps.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Beevision Integration.runtimeconfig.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Beevision Integration.dll
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Beevision Integration.pdb
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.csproj.AssemblyReference.cache
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.AssemblyInfoInputs.cache
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.AssemblyInfo.cs
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.csproj.CoreCompileInputs.cache
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.sourcelink.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\scopedcss\bundle\Beevision Integration.styles.css
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets\msbuild.Beevision Integration.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets\msbuild.Beevision Integration.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets\msbuild.build.Beevision Integration.props
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Beevision Integration.props
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Beevision Integration.props
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevisio.C0F28FE4.Up2Date
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.dll
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\refint\Beevision Integration.dll
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.pdb
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\Beevision Integration.genruntimeconfig.cache
+C:\Users\barsl\Desktop\C# Projeler\BeeVision Integration\obj\Debug\net8.0\ref\Beevision Integration.dll

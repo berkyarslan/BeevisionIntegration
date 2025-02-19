@@ -14,14 +14,24 @@ namespace Base64DecoderWebServer.Controllers
         {
             try
             {
-                // Base64 string'i decode et
+                // Decode Base64 string
                 byte[] imageBytes = Convert.FromBase64String(input.ImageBase64);
 
-                // Resmi geçici bir dosyaya kaydet
-                string imagePath = Path.Combine(Path.GetTempPath(), $"{Guid.NewGuid()}.png");
+                // Save image to a temporary file
+                // Get desktop path
+                string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+                // Create file name (unique name with GUID)
+                string imagePath = Path.Combine(desktopPath, $"{Guid.NewGuid()}.png");
+
+                // Save image as file
                 System.IO.File.WriteAllBytes(imagePath, imageBytes);
 
-                // JSON verilerini ve resmi döndür
+                // Print the path of the saved file
+                Console.WriteLine($"Image saved to: {imagePath}");
+
+
+                // Return JSON data and image
                 return Ok(new
                 {
                     Message = "Data processed successfully",
@@ -38,17 +48,17 @@ namespace Base64DecoderWebServer.Controllers
         [HttpGet("image/{fileName}")]
         public IActionResult GetImage(string fileName)
         {
-            // Geçici klasörde dosya yolunu oluştur
+            // Create file path in temporary folder
             string imagePath = Path.Combine(Path.GetTempPath(), fileName);
 
-            // Dosya mevcutsa byte dizisini döndür
+            // Return byte array if file exists
             if (System.IO.File.Exists(imagePath))
             {
                 byte[] imageBytes = System.IO.File.ReadAllBytes(imagePath);
                 return File(imageBytes, "image/png");
             }
 
-            // Dosya yoksa 404 döndür
+            // Return 404 if file does not exist
             return NotFound(new { Message = "Image not found" });
         }
 

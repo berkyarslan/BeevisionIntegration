@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Beevision Integration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67f08df48ee74beda1a341fe2013ce75f50bc095")]
 [assembly: System.Reflection.AssemblyProductAttribute("Beevision Integration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Beevision Integration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
