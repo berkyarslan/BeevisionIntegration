@@ -14,15 +14,15 @@ namespace JsonParserAPI.Controllers
         {
             try
             {
-                // JSON verisini model sınıfına dönüştür
+                // Convert JSON data to model class
                 var data = JsonSerializer.Deserialize<MeasurementData>(jsonData);
 
-                // Başarılı durum döndür
+                // Return successfull
                 return Ok(new { Message = "JSON başarıyla parse edildi.", Data = data });
             }
             catch (Exception ex)
             {
-                // Hata durumunda hata mesajı döndür
+                // Return error message on error
                 return BadRequest(new { Message = "JSON parse edilirken bir hata oluştu.", Error = ex.Message });
             }
         }

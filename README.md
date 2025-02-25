@@ -1,7 +1,8 @@
 # API Image Decoder Project
 
 ## Project Description
-This project is a C# application designed to interact with an API, parse incoming JSON data, decode a base64-encoded image string, and generate an image file on the desktop.
+This project is a C# application designed to interact with an API, parse incoming JSON data, decode a base64-encoded image string, and generate an image file on the desktop. 
+This project also shows as an example how to communicate with BeeVision devices and how to receive measurement information and images from them.
 
 ## Features
 - Send requests to an API endpoint.
