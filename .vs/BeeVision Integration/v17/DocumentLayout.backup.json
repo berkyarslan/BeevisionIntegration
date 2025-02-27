@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49BA21DF-D511-43FE-B23C-1772456C0000}|Solution Items{49BA21DF-D511-43FE-B23C-1772456C0000}|C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{49BA21DF-D511-43FE-B23C-1772456C0000}|Solution Items{49BA21DF-D511-43FE-B23C-1772456C0000}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99945B86-D780-4963-9659-F9D3E12EC5B3}|Beevision Integration.csproj|c:\\users\\barsl\\desktop\\c# projeler\\beevision integration\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{99945B86-D780-4963-9659-F9D3E12EC5B3}|Beevision Integration.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{99945B86-D780-4963-9659-F9D3E12EC5B3}|Beevision Integration.csproj|c:\\users\\barsl\\desktop\\c# projeler\\beevision integration\\controllers\\jsondecodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99945B86-D780-4963-9659-F9D3E12EC5B3}|Beevision Integration.csproj|solutionrelative:controllers\\jsondecodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49BA21DF-D511-43FE-B23C-1772456C0000}|Solution Items{49BA21DF-D511-43FE-B23C-1772456C0000}|C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{49BA21DF-D511-43FE-B23C-1772456C0000}|Solution Items{49BA21DF-D511-43FE-B23C-1772456C0000}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{99945B86-D780-4963-9659-F9D3E12EC5B3}|Beevision Integration.csproj|c:\\users\\barsl\\desktop\\c# projeler\\beevision integration\\controllers\\mainprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99945B86-D780-4963-9659-F9D3E12EC5B3}|Beevision Integration.csproj|solutionrelative:controllers\\mainprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99945B86-D780-4963-9659-F9D3E12EC5B3}|Beevision Integration.csproj|c:\\users\\barsl\\desktop\\c# projeler\\beevision integration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99945B86-D780-4963-9659-F9D3E12EC5B3}|Beevision Integration.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T12:54:45.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainProgram.cs",
+              "DocumentMoniker": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\Controllers\\MainProgram.cs",
+              "RelativeDocumentMoniker": "Controllers\\MainProgram.cs",
+              "ToolTip": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\Controllers\\MainProgram.cs",
+              "RelativeToolTip": "Controllers\\MainProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:53:41.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:53:27.387Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-02-19T13:15:14.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "JsonDecodeController.cs",
               "DocumentMoniker": "C:\\Users\\barsl\\Desktop\\C# Projeler\\BeeVision Integration\\Controllers\\JsonDecodeController.cs",
               "RelativeDocumentMoniker": "Controllers\\JsonDecodeController.cs",

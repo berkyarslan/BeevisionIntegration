@@ -27,5 +27,7 @@
         public string Operator { get; set; }
         public string Reserved1 { get; set; }
         public string CRC { get; set; }
+
+        // commit
     }
 }
